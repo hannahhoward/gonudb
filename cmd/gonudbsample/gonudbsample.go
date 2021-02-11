@@ -13,7 +13,7 @@ import (
 	"github.com/iand/logfmtr"
 	"github.com/urfave/cli/v2"
 
-	"github.com/iand/gonudb"
+	"github.com/hannahhoward/gonudb"
 )
 
 func main() {

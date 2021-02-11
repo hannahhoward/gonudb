@@ -1,4 +1,4 @@
-module github.com/iand/gonudb
+module github.com/hannahhoward/gonudb
 
 go 1.16
 

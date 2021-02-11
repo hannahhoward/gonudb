@@ -4,8 +4,8 @@ Gonudb is an append-only key/value datastore written in Go.
 
 
 [![Build Status](https://travis-ci.org/iand/gonudb.svg?branch=master)](https://travis-ci.org/iand/gonudb)
-[![Go Report Card](https://goreportcard.com/badge/github.com/iand/gonudb)](https://goreportcard.com/report/github.com/iand/gonudb)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/iand/gonudb)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hannahhoward/gonudb)](https://goreportcard.com/report/github.com/hannahhoward/gonudb)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/hannahhoward/gonudb)
 
 ## Overview
 
@@ -24,17 +24,17 @@ necessary, potentially with an alternate hashing scheme.
 
 ## Installation
 
-Execute `go get github.com/iand/gonudb` within a Go module directory to add it to your module.
+Execute `go get github.com/hannahhoward/gonudb` within a Go module directory to add it to your module.
 
 ## Usage
 
-Gonudb is primarily a library. Import package `github.com/iand/gonudb` to use. A sample application
+Gonudb is primarily a library. Import package `github.com/hannahhoward/gonudb` to use. A sample application
 that demonstrates some simple inserts and fetches is provided in `cmd/gonudbsample`.
 
 An admin tool can be found in `cmd/gonudbadmin` which provides some commands for inspecting and
 validating the files that comprise a store.
 
-Install by executing `go install github.com/iand/gonudb/cmd/gonudbadmin` from the root of the 
+Install by executing `go install github.com/hannahhoward/gonudb/cmd/gonudbadmin` from the root of the 
 repository.
 
  - `gonudbadmin info` can be used to view charactistic information about any of the three files used by gonudb (data, key and log files).

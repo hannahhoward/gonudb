@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"github.com/iand/gonudb/internal"
+	"github.com/hannahhoward/gonudb/internal"
 )
 
 func CreateStore(datPath, keyPath, logPath string, appnum, salt uint64, blockSize int, loadFactor float64) error {

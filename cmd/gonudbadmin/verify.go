@@ -5,7 +5,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/iand/gonudb/internal"
+	"github.com/hannahhoward/gonudb/internal"
 )
 
 var verifyCommand = &cli.Command{

@@ -8,7 +8,7 @@ import (
 	"github.com/iand/logfmtr"
 	"github.com/urfave/cli/v2"
 
-	"github.com/iand/gonudb/internal"
+	"github.com/hannahhoward/gonudb/internal"
 )
 
 func main() {
